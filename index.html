@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Characteris</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <meta name="viewport" content="width=device-width">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    </head>
+    <body>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <video autoplay muted loop id="running">
+            <source src="vid/running.mp4" type="video/mp4">
+        </video>
+        <img data-aos="fade-up" id="logo" src="img/characteris.png">             
+        <div data-aos="fade-down" id="images">
+            <a href="https://instagram.com/characterisapp" target="_blank"><img id="two" src="img/instagram.png" width="50px" height="50px"></a>
+            <a href="https://linkedin.com/company/characteris" target="_blank"><img id="three" src="img/linkedin.png" width="50px" height="50px"></a>
+        </div>
+        <script>
+            AOS.init({ duration: 1200,})
+            window.addEventListener('load', AOS.refresh)
+        </script>
+    </body>
+</html>
