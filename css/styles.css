@@ -1,3 +1,17 @@
+html, body{
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+
+#slogan {
+    font-weight: bold;
+    font-size: 40px;
+}
+
 #logo {
     margin-left: auto;
     margin-right: auto;
@@ -12,14 +26,30 @@
     flex-direction: row;
 }
 
-a {
+.social {
     margin-top: 25%;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
-video {
+.ps:hover {
+    height: 70px;
+    width: 70px;
+}
+
+#wwc {
+    height: 50%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20%;
+    opacity: 87%;
+    border-radius: 30px;
+}
+
+#running {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -29,8 +59,47 @@ video {
     z-index: -1;
 }
 
+.sections {
+    background-color: white;
+    opacity: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    width: 50%;
+}
+
+.list {
+    text-align: left;
+    margin-top: -20px;
+}
+
+h3 {
+    margin-top: -20px;
+}
+
+#br:hover {
+    text-decoration: none;
+}
+
+#copyright {
+    text-align: center;
+}
+
+#submit {
+    color: black;
+}
+
+#submit:hover {
+    text-decoration: none;
+    font-size: 45px;
+}
+
 @media only screen and (max-width: 600px) {
-    video {
+    h1{
+        font-size: 45px;
+    }
+    #running {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -39,7 +108,28 @@ video {
         top: 0px;
         z-index: -1;
     }
-    
+
+    .sections {
+        background-color: white;
+        opacity: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    #wwc {
+        height: 100%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 120%;
+        opacity: 87%;
+        border-radius: 30px;
+    }
+ 
     #logo {
         margin-left: auto;
         margin-right: auto;
@@ -54,14 +144,14 @@ video {
         flex-direction: row;
     }
     
-    a {
+    .social {
         margin-top: 130%;
         margin-left: 17.6vw;
   }
 }
 
 @media only screen and (min-width: 600px) {
-    video {
+   #running {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -70,14 +160,35 @@ video {
         top: 0px;
         z-index: -1;
     }
-    
+
+    .sections {
+        background-color: white;
+        opacity: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    #wwc {
+        height: 100%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 120%;
+        opacity: 87%;
+        border-radius: 30px;
+    }
+
     #logo {
         margin-left: auto;
         margin-right: auto;
         display: block;
         width: 750px;
         height: 750px;
-        margin-top: -35%;
+        margin-top: -23%;
     }
     
     #images {
@@ -85,7 +196,7 @@ video {
         flex-direction: row;
     }
     
-    a {
+    .social {
         margin-top: 200%;
     }
 
@@ -120,14 +231,14 @@ video {
         flex-direction: row;
     }
     
-    a {
+    .social {
         margin-top: 25%;
         margin-left: auto;
         margin-right: auto;
         display: block;
     }
     
-    video {
+    #running {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -136,4 +247,5 @@ video {
         top: 0px;
         z-index: -1;
     }
+
 }
